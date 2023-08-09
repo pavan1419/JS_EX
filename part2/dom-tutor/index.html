@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./102.js" defer></script>
+    <title>My Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Website</h1>
+        <ul class="nav-items">
+          <li><a href="">Home</a></li>
+          <li><a href="">Todo</a></li>
+          <li><a href="">Sign up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2>manage your tasks</h2>
+        <button class="btn btn-headline">Learn more</button>
+      </div>
+    </header>
+    <section class="todo-section container">
+      <h2>your plan for today ?</h2>
+      <form class="form-todo">
+        <input type="text" name="" id="" placeholder="add todo" />
+        <input type="submit" class="" value="add todo" />
+      </form>
+    </section>
+    <section class="section-signup container">
+      <h2>Sign up</h2>
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="username" class="">username</label>
+          <input type="password" class="" name="username" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="password" class="">password</label>
+          <input type="text" class="" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password" class="">Confirm Password</label>
+          <input
+            type="password"
+            class=""
+            name="confirm-password"
+            id="confirm-password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone" class="">Phone</label>
+          <input type="text" class="" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="">Email</label>
+          <input type="email" class="" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="about" class="">About Yourself</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+  </body>
 </html>

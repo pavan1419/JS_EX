@@ -70,6 +70,10 @@ a {
   margin-top: 5rem;
   text-align: center;
 }
+.dark-bg {
+  background: black;
+  color: white;
+}
 
 .form-todo {
   /* border: 2px solid red; */
@@ -88,6 +92,20 @@ a {
   padding: 0.8rem;
   font-size: 1rem;
   font-weight: 400;
+}
+
+.todo-list {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.todo-list li {
+  padding: 0.7rem;
+  background-color: #444;
+  color: cyan;
+  margin-top: 1rem;
+  text-transform: capitalize;
 }
 
 .form-todo input[type="submit"] {

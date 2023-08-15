@@ -15,3 +15,16 @@ todoform.addEventListener("submit", (e)=>{
   todolist.append(newLi) 
     input.value = ""
 })
+
+todolist.addEventListener("click",(e)=>{
+  if(e.target.classList.contains("done")){
+    console.log("done")
+    const liSpan = e.target.parentNode.previousElementSibling
+    liSpan.style.textDecoration = "Line-through"
+  }
+  if(e.target.classList.contains("remove")){
+const removeNode = e.target.parentNode.parentNode
+removeNode.remove()
+    console.log("removed")
+  }
+})

@@ -1,9 +1,13 @@
 "use strict"
 
-var Name = "pavan ";
+let Name = "pavan ";
 
 console.log(Name)
 
 Name = "mango"
 
 console.log(Name)
+
+
+// const = pavan  /  eroor 
+// let =  pavan / mango 
